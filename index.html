@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="light_mode">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="first">
+                    <div>
+                        <img class="interface" src="images/light.png" alt="">
+                    </div>
+                    <div>
+                        <h2>JEGATHEES</h2>
+                    </div>
+                </div>
+                <div>
+                    <a href="#sec_2">About me</a>
+                    <a href="#row_3">Internships</a>
+                    <a href="#allign">Projects</a>
+                    <a href="#knock">Contact</a>
+                </div>
+                <div class="moon">
+                    <img class="moon_1" src="images/moon.png" alt="" onclick="changeDark()" width="40px">
+                </div>
+                <div class="toggle_btn">
+                    <img class="voice" onclick="openSidebar()" src="images/bars.png" alt="" width="20px">
+                </div>
+            </div>
+        </div>
+        <div id="dropdown_menu">
+            <img class="close" src="images/cross.png" alt="" width="30px" onclick="closeSidebar()">
+            <br><br>
+            <li><a href="#sec_2">About me</a></li>
+            <li><a href="#row_3">Internships</a></li>
+            <li><a href="#allign">Projects</a></li>
+            <li><a href="#knock">Contact</a></li>
+        </div>
+    </header>
+    <section class="sec_1">
+        <div class="container">
+            <div class="row_1">
+                <div class="item">
+                    <b id="b1">Mern <b class="b2">Stack </b> <br><b id="b3"></b>
+                    </b>
+                </div>
+                <div id="gokul" class="photo">
+                    <img class="jega" src="images/jega-removebg-preview.png" alt="">
+                </div>
+                <div id="third">
+                    <h2 id="wow">Hi,I am Jegathees </h2>
+                    <p>I am currently completing a full stack development course at Skill Safari Institute. I have gained proficiency in HTML, CSS, JavaScript, and React, along with knowledge of various backend frameworks. While I have a basic understanding of PHP, I am actively seeking job opportunities in web development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec_2">
+        <div class="container">
+            <div id="row_2">
+                <div>
+                    <img id="stack" src="images/Typing-bro.svg" alt="">
+                    <img id="stack_1" src="images/blue type.svg" alt="">
+                </div>
+                <div class="about">
+                    <div>
+                        <h3>ABOUT ME</h3>
+                    </div>
+                    <div>
+                        <h2>Write code,<br>Break barriers.....</h2>
+                    </div>
+                    <div>
+                        <p> "I design and build digital products, including clone websites. Additionally, I am creating a new website for blood donors, aiming to facilitate the identification of potential donors."</p>
+                    </div>
+                    <div>
+                        <p>HTML,CSS</p>
+                        <div id="wave" class="w1">
+                            <div id="run" class="w2">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>JAVASCRIPT</p>
+                        <div id="wave" class="w1">
+                            <div id="run" class="w3">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>PHP</p>
+                        <div id="wave" class="w1">
+                            <div id="run" class="w4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec_3">
+        <div class="container">
+            <div id="row_3">
+                <div class="intern">
+                    <h1>INTERNSHIPS</h1>
+                    <p>"I have completed my first internship at Skill Safari and also finished an online web development course at Programming Hero. Currently, I am working as an intern at CodeBoosters."</p>
+                </div>
+                <div class="cards">
+                    <div id="content">
+                        <img src="images/certificate (1).png" alt="">
+                        <h3>Relearn School <br>
+                        Web Development <br>Intern</h3>
+                        <p class="options hidden" id="options1">Relearn School is fueled by its pursuit of pioneering and re-imagining education
+                            with Analytics and data driven learning solutions.</p>
+                            <button href="#row_3" class="showMoreBtn" data-options="options1" >
+                            Show more</button>
+                    </div>
+                    <div id="content">
+                        <img src="images/certificate (1).png" alt="">
+                        <h3>Programming Hero <br>Web Development<br> Course</h3>
+                        <p class="options hidden" id="options2">We provide a comprehensive online programming courses, Web Development  Advanced Programming Courses.</p>
+                        <button href="#row_3" class="showMoreBtn" data-options="options2">Show more </button>
+                    </div>
+                    <div id="content">
+                        <img src="images/certificate (1).png" alt="">
+                        <h3>Codeboosters <br>
+                        Web Development <br>Internship</h3>
+                        <p class="options hidden" id="options3"> CodeBoosters Tech - Your MSME and AICTE Govt-Approved Internship Partner For Skill-Building And Certification."</p>
+                        <button href="#row_3"   class="showMoreBtn" data-options="options3"> Show more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec_4">
+        <div class="container">
+            <div class="row_4">
+                <div id="allign">
+                    <img id="mission" src="images/project green.svg" alt="" width="200px">
+                    <img id="mission_1" src="images/project blue.svg" alt="" width="200px">
+                    <h1>PROJECTS</h1>
+                    <p>I've been busy creating various clone websites like Flipkart, Zelta Trading Platform, and also working on original projects like a salon spa website. That's a diverse range of projects....</p>
+                </div>
+                <div class="pro">
+                    <div id="pro_1">
+                        <img src="images/online-test.png" alt="" width="80px">
+                        <p>Flipkart Clone Website</p>
+                    </div>
+                    <div id="pro_1">
+                        <img src="images/online-test.png" alt="" width="80px">
+                        <p>Zelta Clone Website</p>
+                    </div>
+                    <div  id="pro_1">
+                        <img src="images/online-test.png" alt="" width="80px">
+                        <p>Beauty Saloon Website</p>
+                    </div>
+                    <div  id="pro_2">
+                        <img src="images/online-test.png" alt="" width="80px">
+                        <p>Mode UI<br> website</p>
+                    </div>
+                    <div  id="pro_2">
+                        <img src="images/online-test.png" alt="" width="80px">
+                        <p>Graha Builders website</p>
+                    </div>
+                    <div  id="pro_2">
+                        <img src="images/online-test.png" alt="" width="80px">
+                        <p>Startup landing website</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="sec_5">
+        <div id="knock">
+            <h1>CONTACT</h1>
+        </div>
+        <div class="container">
+            <div class="row_6">
+                <div>
+                    <a target="_blank" href="">
+                    <img src="images/github.png" alt="">
+                </a>
+                </div>
+                <div>
+                    <a target="_blank" href="">
+                    <img src="images/linkedin.png" alt="">
+                </a>
+                </div>
+                <div>
+                    <a href="">
+                    <img src="images/instagram.png" alt="">
+                </a>
+                </div>
+                <div>
+                    <a href="">
+                    <img src="images/facebook.png" alt="">
+                </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row_7">
+                <div class="max">
+                    <h4>Email:</h4>
+                    <a href="mailto:sjnjega49616@gmail.com">sjnjega49616@gmail.com</a>
+                </div>
+                <div class="max">
+                    <h4>Mobile no:</h4>
+                    <a href="tel:9123509524">9123509524</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var currentOptions = {};
+
+document.querySelectorAll('.showMoreBtn').forEach(function(button) {
+button.addEventListener('click', function() {
+    var optionsId = this.getAttribute('data-options');
+    var options = document.getElementById(optionsId);
+    
+    if (options.style.display === 'none') {
+    options.style.display = 'block';
+    this.textContent = 'Show Less';
+    currentOptions[optionsId] = true;
+    } 
+    else {
+    options.style.display = 'none';
+    this.textContent = 'Show more';
+    currentOptions[optionsId] = false;
+    }
+});
+});
+
+function openSidebar(){
+    document.getElementById('dropdown_menu').style.display = "block";
+}
+function closeSidebar(){
+    document.getElementById('dropdown_menu').style.display = "none";
+}
+
+function changeDark(){
+    const body = document.body;
+    body.classList.toggle('dark_mode');
+}
+
+    </script>
+    <script src="autotyping.js">
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
